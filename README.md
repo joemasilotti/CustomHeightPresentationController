@@ -19,7 +19,7 @@ it, simply add the following line to your Podfile:
 pod 'CustomHeightPresentationController'
 ```
 
-Create a UIViewController that conforms to `CustomHeightPresentable` and add the following to init():
+Create a `UIViewController` that conforms to `CustomHeightPresentable` and add the following to `init()`:
 
 ```swift
 modalPresentationStyle = .custom
@@ -32,6 +32,8 @@ func presentationController(forPresented presented: UIViewController, presenting
     return CustomHeightPresentationController(presentedViewController: presented, presenting: presenting)
 }
 ```
+
+A full implementation exists in the example project.
 
 ## Author
 
