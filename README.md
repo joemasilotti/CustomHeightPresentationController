@@ -22,7 +22,7 @@ pod 'CustomHeightPresentationController'
 
 ## Author
 
-Joe Masilotti, joseph.masilotti@gmail.com
+Joe Masilotti, joe@masilotti.com
 
 ## License
 

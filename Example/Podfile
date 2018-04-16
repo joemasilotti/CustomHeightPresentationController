@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'CustomHeightPresentationController_Example' do
   pod 'CustomHeightPresentationController', :path => '../'
-
-  target 'CustomHeightPresentationController_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

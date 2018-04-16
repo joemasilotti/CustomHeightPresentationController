@@ -1,0 +1,16 @@
+PODS:
+  - CustomHeightPresentationController (0.1.0)
+
+DEPENDENCIES:
+  - CustomHeightPresentationController (from `../`)
+
+EXTERNAL SOURCES:
+  CustomHeightPresentationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomHeightPresentationController: 9274ea35603e7cd78b1c79fe345e751eee9b3424
+
+PODFILE CHECKSUM: 690dc20f5155c3bfadf1a61526585c04f6e28a48
+
+COCOAPODS: 1.5.0

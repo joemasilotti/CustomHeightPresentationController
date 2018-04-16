@@ -1,0 +1,6 @@
+framework module CustomHeightPresentationController {
+  umbrella header "CustomHeightPresentationController-umbrella.h"
+
+  export *
+  module * { export * }
+}

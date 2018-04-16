@@ -7,46 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D70B71921B8C2337926B8D0 /* Pods_CustomHeightPresentationController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD27D5BDAF6DC358EE0B217F /* Pods_CustomHeightPresentationController_Tests.framework */; };
+		4320DF40A5210518696A4DC1 /* Pods_CustomHeightPresentationController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA85DF3E552B7E39054DDAE8 /* Pods_CustomHeightPresentationController_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* RootViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		C3E8A0E622061A2C5A019B80 /* Pods_CustomHeightPresentationController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2EC265A9F40BA94DA0B465 /* Pods_CustomHeightPresentationController_Example.framework */; };
+		845F946B20847B6600A89000 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F946A20847B6600A89000 /* ModalViewController.swift */; };
+		845F946D20847BD900A89000 /* ModalViewController+ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F946C20847BD900A89000 /* ModalViewController+ViewLayout.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = CustomHeightPresentationController;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		08AFE81A035EBF108B73390A /* Pods-CustomHeightPresentationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomHeightPresentationController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomHeightPresentationController_Example/Pods-CustomHeightPresentationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		526BBD3CD322C83E47A0E6DF /* Pods-CustomHeightPresentationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomHeightPresentationController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomHeightPresentationController_Tests/Pods-CustomHeightPresentationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BF88731E3B038E305507543 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5BF88731E3B038E305507543 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CustomHeightPresentationController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomHeightPresentationController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* CustomHeightPresentationController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomHeightPresentationController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6C2EC265A9F40BA94DA0B465 /* Pods_CustomHeightPresentationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomHeightPresentationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EE29A1EBA9347E527E7EF0A /* Pods-CustomHeightPresentationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomHeightPresentationController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomHeightPresentationController_Tests/Pods-CustomHeightPresentationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B0213B1B07DD3DCC28359624 /* CustomHeightPresentationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CustomHeightPresentationController.podspec; path = ../CustomHeightPresentationController.podspec; sourceTree = "<group>"; };
-		C8FB30F7085AFABCF007A2A1 /* Pods-CustomHeightPresentationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomHeightPresentationController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomHeightPresentationController_Example/Pods-CustomHeightPresentationController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E8FB4AB6E7F995CB577CCF24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FD27D5BDAF6DC358EE0B217F /* Pods_CustomHeightPresentationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomHeightPresentationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845F946A20847B6600A89000 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		845F946C20847BD900A89000 /* ModalViewController+ViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModalViewController+ViewLayout.swift"; sourceTree = "<group>"; };
+		B0213B1B07DD3DCC28359624 /* CustomHeightPresentationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomHeightPresentationController.podspec; path = ../CustomHeightPresentationController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C54A650F058305700016C9A8 /* Pods-CustomHeightPresentationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomHeightPresentationController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomHeightPresentationController_Example/Pods-CustomHeightPresentationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E5164DD9AF3DD937EECB8FE9 /* Pods-CustomHeightPresentationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomHeightPresentationController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomHeightPresentationController_Example/Pods-CustomHeightPresentationController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E8FB4AB6E7F995CB577CCF24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EA85DF3E552B7E39054DDAE8 /* Pods_CustomHeightPresentationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomHeightPresentationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,26 +40,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E8A0E622061A2C5A019B80 /* Pods_CustomHeightPresentationController_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D70B71921B8C2337926B8D0 /* Pods_CustomHeightPresentationController_Tests.framework in Frameworks */,
+				4320DF40A5210518696A4DC1 /* Pods_CustomHeightPresentationController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15C4285815A753167FA21224 /* Frameworks */ = {
+		1283380A0CF3536A0FDC95B3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C2EC265A9F40BA94DA0B465 /* Pods_CustomHeightPresentationController_Example.framework */,
-				FD27D5BDAF6DC358EE0B217F /* Pods_CustomHeightPresentationController_Tests.framework */,
+				C54A650F058305700016C9A8 /* Pods-CustomHeightPresentationController_Example.debug.xcconfig */,
+				E5164DD9AF3DD937EECB8FE9 /* Pods-CustomHeightPresentationController_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1AF06BA6A135E099CB39FCC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA85DF3E552B7E39054DDAE8 /* Pods_CustomHeightPresentationController_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,10 +69,9 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CustomHeightPresentationController */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				B165710F0375753B847282FF /* Pods */,
-				15C4285815A753167FA21224 /* Frameworks */,
+				1283380A0CF3536A0FDC95B3 /* Pods */,
+				1AF06BA6A135E099CB39FCC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* CustomHeightPresentationController_Example.app */,
-				607FACE51AFB9204008FA782 /* CustomHeightPresentationController_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,10 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				845F946A20847B6600A89000 /* ModalViewController.swift */,
+				845F946C20847BD900A89000 /* ModalViewController+ViewLayout.swift */,
+				607FACD71AFB9204008FA782 /* RootViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for CustomHeightPresentationController";
@@ -121,23 +107,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,17 +117,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		B165710F0375753B847282FF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				08AFE81A035EBF108B73390A /* Pods-CustomHeightPresentationController_Example.debug.xcconfig */,
-				C8FB30F7085AFABCF007A2A1 /* Pods-CustomHeightPresentationController_Example.release.xcconfig */,
-				526BBD3CD322C83E47A0E6DF /* Pods-CustomHeightPresentationController_Tests.debug.xcconfig */,
-				8EE29A1EBA9347E527E7EF0A /* Pods-CustomHeightPresentationController_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,11 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CustomHeightPresentationController_Example" */;
 			buildPhases = (
-				94AA6A098D89E60B275AF0FC /* [CP] Check Pods Manifest.lock */,
+				88B438535AE7904F30D871C6 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				E5DC832D3972EF75BD52AF5E /* [CP] Embed Pods Frameworks */,
+				19B740F468FEBD685E761B26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,25 +138,6 @@
 			productName = CustomHeightPresentationController;
 			productReference = 607FACD01AFB9204008FA782 /* CustomHeightPresentationController_Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		607FACE41AFB9204008FA782 /* CustomHeightPresentationController_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CustomHeightPresentationController_Tests" */;
-			buildPhases = (
-				9A9417E5B2FFACBAB1F5006A /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = CustomHeightPresentationController_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* CustomHeightPresentationController_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -213,11 +152,6 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -235,7 +169,6 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* CustomHeightPresentationController_Example */,
-				607FACE41AFB9204008FA782 /* CustomHeightPresentationController_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,53 +184,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		94AA6A098D89E60B275AF0FC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CustomHeightPresentationController_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A9417E5B2FFACBAB1F5006A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CustomHeightPresentationController_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E5DC832D3972EF75BD52AF5E /* [CP] Embed Pods Frameworks */ = {
+		19B740F468FEBD685E761B26 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,6 +205,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomHeightPresentationController_Example/Pods-CustomHeightPresentationController_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		88B438535AE7904F30D871C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomHeightPresentationController_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -322,28 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				607FACD81AFB9204008FA782 /* RootViewController.swift in Sources */,
+				845F946B20847B6600A89000 /* ModalViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				845F946D20847BD900A89000 /* ModalViewController+ViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* CustomHeightPresentationController_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -466,7 +360,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08AFE81A035EBF108B73390A /* Pods-CustomHeightPresentationController_Example.debug.xcconfig */;
+			baseConfigurationReference = C54A650F058305700016C9A8 /* Pods-CustomHeightPresentationController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomHeightPresentationController/Info.plist;
@@ -481,51 +375,13 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8FB30F7085AFABCF007A2A1 /* Pods-CustomHeightPresentationController_Example.release.xcconfig */;
+			baseConfigurationReference = E5164DD9AF3DD937EECB8FE9 /* Pods-CustomHeightPresentationController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomHeightPresentationController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 526BBD3CD322C83E47A0E6DF /* Pods-CustomHeightPresentationController_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EE29A1EBA9347E527E7EF0A /* Pods-CustomHeightPresentationController_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -549,15 +405,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CustomHeightPresentationController_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,42 +1,21 @@
-#
-# Be sure to run `pod lib lint CustomHeightPresentationController.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'CustomHeightPresentationController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CustomHeightPresentationController.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = "A presentation wrapper to show a controller that doesn't fill the full screen."
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A tiny library (one UIViewController) that makes presenting modal screens much easier. It mimics the presentation animation and feel of UIActionSheet but leaves all design to the developer. A custom controller is animated up from the bottom of the screen and the view "underneath" is grayed out. Tapping anywhere on the presenting view will dismiss the presented controller.
                        DESC
 
-  s.homepage         = 'https://github.com/Joe Masilotti/CustomHeightPresentationController'
+  s.homepage         = 'https://github.com/joemasilotti/CustomHeightPresentationController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Joe Masilotti' => 'joseph.masilotti@gmail.com' }
-  s.source           = { :git => 'https://github.com/Joe Masilotti/CustomHeightPresentationController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Joe Masilotti' => 'joe@masilotti.com' }
+  s.source           = { :git => 'https://github.com/joemasilotti/CustomHeightPresentationController.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/joemasilotti'
 
   s.ios.deployment_target = '8.0'
-
+  s.swift_version = '4.0'
   s.source_files = 'CustomHeightPresentationController/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CustomHeightPresentationController' => ['CustomHeightPresentationController/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
