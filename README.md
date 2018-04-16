@@ -4,7 +4,7 @@ A tiny library (one `UIViewController`) that makes presenting modal screens much
 
 ## Example
 
-![Screenshot](https://github.com/joemasilotti/CustomHeightPresentationController/blob/images/Screenshot.png)
+![Screenshot](https://github.com/joemasilotti/CustomHeightPresentationController/blob/images/Screenshots.png)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
