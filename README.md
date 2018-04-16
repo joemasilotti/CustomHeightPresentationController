@@ -1,11 +1,10 @@
 # CustomHeightPresentationController
 
-[![CI Status](http://img.shields.io/travis/Joe Masilotti/CustomHeightPresentationController.svg?style=flat)](https://travis-ci.org/Joe Masilotti/CustomHeightPresentationController)
-[![Version](https://img.shields.io/cocoapods/v/CustomHeightPresentationController.svg?style=flat)](http://cocoapods.org/pods/CustomHeightPresentationController)
-[![License](https://img.shields.io/cocoapods/l/CustomHeightPresentationController.svg?style=flat)](http://cocoapods.org/pods/CustomHeightPresentationController)
-[![Platform](https://img.shields.io/cocoapods/p/CustomHeightPresentationController.svg?style=flat)](http://cocoapods.org/pods/CustomHeightPresentationController)
+A tiny library (one `UIViewController`) that makes presenting modal screens much easier. It mimics the presentation animation and feel of `UIActionSheet` but leaves all design to the developer. A custom controller is animated up from the bottom of the screen and the view "underneath" is grayed out. Tapping anywhere on the presenting view will dismiss the presented controller.
 
 ## Example
+
+![Screenshot](https://github.com/joemasilotti/CustomHeightPresentationController/blob/images/Screenshot.png)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -18,6 +17,20 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'CustomHeightPresentationController'
+```
+
+Create a UIViewController that conforms to `CustomHeightPresentable` and add the following to init():
+
+```swift
+modalPresentationStyle = .custom
+transitioningDelegate = self
+```
+
+Then in that controller's extension of `UIViewControllerTransitioningDelegate` add the following:
+```swift
+func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+    return CustomHeightPresentationController(presentedViewController: presented, presenting: presenting)
+}
 ```
 
 ## Author
